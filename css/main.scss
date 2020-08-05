@@ -1,0 +1,21 @@
+@import 'components', 'querys', 'variables', 'mixins', 'reset';
+
+.header {
+  @include my-header;
+}
+
+.main {
+  @include my-main;
+
+  .wrapper {
+    border: solid red;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+  }
+}
+
+.footer {
+  @include my-footer;
+}

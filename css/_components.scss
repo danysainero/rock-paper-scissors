@@ -1,0 +1,128 @@
+@import 'variables';
+
+.counter {
+  background: rgb(192, 191, 191);
+  border: solid green;
+  display: flex;
+  justify-content: center;
+  height: 15%;
+
+  &__container {
+    align-items: center;
+    border: solid green;
+    display: flex;
+    font-size: 5rem;
+    letter-spacing: 5rem;
+    justify-content: center;
+    width: 50%;
+  }
+}
+
+.results {
+  background: rgb(162, 162, 190);
+  border: solid green;
+  height: 10%;
+
+  & p {
+    align-items: center;
+    display: flex;
+    font-size: 5rem;
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+.game {
+  background: rgb(162, 184, 161);
+  border: solid green;
+  display: flex;
+  height: 75%;
+  justify-content: space-around;
+
+  &__user {
+    border: solid rgb(102, 0, 128);
+    display: flex;
+    width: 50%;
+
+    &__selection{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%; 
+        height: 100%;
+
+        & img{
+            height: 30%;
+        }
+    }
+  }
+
+  &__pc {
+    border: solid rgb(102, 0, 128);
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+
+    &__selection{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%; 
+        height: 100%;
+
+        & img{
+            height: 30%;
+        }
+    }
+  }
+
+  .btn-container{
+    align-items: center;
+    border: solid rgb(0, 32, 128);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    padding: 25px 0;
+    width: 20%;
+
+    & button {
+        border: 1px solid white;
+        border-radius: 50%;
+        filter: opacity(0.4) grayscale(100%);
+        height: 150px;
+        padding: 15px;
+        outline:none;
+        width: 150px;
+
+        &:hover{
+            filter: opacity(1);
+        }
+
+        
+        
+    }
+    .rock{
+        background-color: transparent;
+        background-image: url(../images/rock.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .paper{
+        background-color: transparent;
+        background-image: url(../images/paper.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .scissors{
+        background-color: transparent;
+        background-image: url(../images/scissors.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+  }
+}
+
+.pc-selection{
+    filter: opacity(1) !important;
+}

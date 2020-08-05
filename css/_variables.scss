@@ -1,0 +1,37 @@
+/***SASS*******************************/
+
+/* COLORS */
+
+$black: #000;
+$white: #fff;
+$blue: #0000d6;
+$blue_d: #04047c;
+$blue_l: #5b5bff;
+
+/* FONT-SIZES */
+
+$fs_xs: 12px;
+$fs_s: 14px;
+$fs_m: 16px;
+$fs_l: 18px;
+$fs_xl: 24px;
+$fs_xxl: 32px;
+
+
+/***CSS*******************************/
+:root {
+    /* COLORS */
+    --black: #000;
+    --white: #fff;
+    --blue: #0000d6;
+    --blue_d: #04047c;
+    --blue_l: #5b5bff;
+
+    /* FONT-SIZES */
+
+    --fs-xs: 0.75rem;
+    --fs-s: 0.875rem;
+    --fs-m: 1rem;
+    --fs-l: 1.125rem;
+    --fs-xl: 1.5rem;
+}
