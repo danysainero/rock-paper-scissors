@@ -94,33 +94,28 @@
         padding: 15px;
         outline:none;
         width: 150px;
-
-        &:hover{
-            filter: opacity(1);
-        }
-
-        
-        
     }
-    .rock{
+    .rock, .paper, .scissors{
         background-color: transparent;
         background-image: url(../images/rock.png);
         background-repeat: no-repeat;
         background-size: contain;
     }
     .paper{
-        background-color: transparent;
         background-image: url(../images/paper.png);
-        background-repeat: no-repeat;
-        background-size: contain;
     }
     .scissors{
-        background-color: transparent;
         background-image: url(../images/scissors.png);
-        background-repeat: no-repeat;
-        background-size: contain;
     }
   }
+}
+
+.game__user .btn-container button:hover{
+  filter: opacity(1);
+}
+
+.game__pc .btn-container button{
+   cursor: default;
 }
 
 .pc-selection{
